@@ -240,4 +240,4 @@ test/
 | Image fields | `…Url` | `avatarUrl`, `posterUrl` |
 | JSON keys | camelCase, matching the field names | `"nextCursor"` |
 | Assets | `assets/<images\|vectors>/<feature>/`, named for what they show | `vectors/wallet/ic_arrow_up_right_navy.svg` |
-| Branches | `feature/<name>` from `main` → `develop` → `main` | `feature/help-centre` |
+| Branches | work on `develop`; merge `develop` → `main` when approved | — |

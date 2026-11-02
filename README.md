@@ -55,5 +55,6 @@ Features don't import each other. They meet through routes (`lib/core/constants/
 ## Branches
 
 - `main`: finished, verified work only.
-- `develop`: integration of ongoing work.
-- `feature/<name>`: one per feature, branched from `main`, merged into `develop` to test, then into `main` once approved.
+- `develop`: ongoing work; commit here directly.
+
+`develop` is merged into `main` once its work is verified and approved.
