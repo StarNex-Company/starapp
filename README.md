@@ -23,7 +23,7 @@ flutter run --dart-define=USE_MOCK_DATA=false \
             --dart-define=API_BASE_URL=https://api.example.com/v1
 ```
 
-Each feature has a mock repository and an API repository behind the same interface; this flag picks which one is used. The mock fixtures are the JSON each screen expects from the API. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for:
+Each feature has a mock repository and an API repository behind the same interface; this flag picks which one is used. The mock fixtures are the JSON each screen expects from the API. [docs/ARCHITECTURE_STRUCTURE.md](docs/ARCHITECTURE_STRUCTURE.md) maps where everything lives and how to add a feature. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for:
 - the data layer and endpoints
 - error handling
 - navigation rules

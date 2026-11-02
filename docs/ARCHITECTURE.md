@@ -1,5 +1,9 @@
 # Star App architecture
 
+The folder-by-folder map, dependency rules, data flow and navigation map
+are in [ARCHITECTURE_STRUCTURE.md](ARCHITECTURE_STRUCTURE.md). This
+document holds the rules.
+
 How the app is put together and how to connect it to the backend. The data
 layer is complete against mock data; going live means pointing it at the API.
 
