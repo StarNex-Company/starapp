@@ -1,0 +1,31 @@
+abstract final class HomeIcons {
+  static const _dir = 'assets/vectors/home';
+
+  static const addRoundedSmall = '$_dir/ic_add_rounded_small.svg';
+  static const addRoundedWhite = '$_dir/ic_add_rounded_white.svg';
+  static const arrowUp = '$_dir/ic_arrow_up.svg';
+  static const bookmarkFilled = '$_dir/ic_bookmark_filled.svg';
+  static const bookmarkOutline = '$_dir/ic_bookmark_outline.svg';
+  static const cardsStarOutline = '$_dir/ic_cards_star_outline.svg';
+  static const comment = '$_dir/ic_comment.svg';
+  static const creatorBadge = '$_dir/ic_creator_badge.svg';
+  static const creatorBadgeLight = '$_dir/ic_creator_badge_light.svg';
+  static const dismiss = '$_dir/ic_dismiss.svg';
+  static const flagFill = '$_dir/ic_flag_fill.svg';
+  static const flagFilled = '$_dir/ic_flag_filled.svg';
+  static const pauseCircle = '$_dir/ic_pause_circle.svg';
+  static const personAdd = '$_dir/ic_person_add.svg';
+  static const playCircle = '$_dir/ic_play_circle.svg';
+  static const repost = '$_dir/ic_repost.svg';
+  static const star = '$_dir/ic_star.svg';
+  static const starFilled = '$_dir/ic_star_filled.svg';
+  static const userFollow = '$_dir/ic_user_follow.svg';
+  static const userFollowing = '$_dir/ic_user_following.svg';
+  static const verified = '$_dir/ic_verified.svg';
+  static const verifiedLight = '$_dir/ic_verified_light.svg';
+  static const verifiedLightXs = '$_dir/ic_verified_light_xs.svg';
+  static const world = '$_dir/ic_world.svg';
+  static const worldLight = '$_dir/ic_world_light.svg';
+  static const storyViewAllBg = '$_dir/story_view_all_bg.svg';
+  static const trendingViewAllBg = '$_dir/trending_view_all_bg.svg';
+}

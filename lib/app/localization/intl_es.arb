@@ -1,0 +1,22 @@
+{
+  "@@locale": "es",
+  "appTitle": "StarApp",
+  "welcome": "Bienvenido a StarApp",
+  "signIn": "Iniciar sesión",
+  "signOut": "Cerrar sesión",
+  "chooseYourLanguage": "Elige tu idioma",
+  "chooseYourLanguageDescription": "Selecciona tu idioma preferido para la experiencia de la aplicación.",
+  "searchLanguageHint": "Buscar idioma...",
+  "cancel": "Cancelar",
+  "done": "Hecho",
+  "english": "Inglés",
+  "spanish": "Español",
+  "greeting": "¡Hola {name}!",
+
+  "@greeting": {
+    "description": "Saludo mostrado en la pantalla principal",
+    "placeholders": {
+      "name": {}
+    }
+  }
+}

@@ -1,0 +1,25 @@
+arb-dir: lib/app/localization
+template-arb-file: intl_en.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+preferred-supported-locales:
+  - en
+  - es
+  - fr
+  - de
+  - it
+  - pt
+  - ru
+  - zh
+  - ja
+  - ko
+  - ar
+  - hi
+  - bn
+  - pa
+  - jv
+  - ms
+  - id
+  - vi
+  - th
+  - tr
