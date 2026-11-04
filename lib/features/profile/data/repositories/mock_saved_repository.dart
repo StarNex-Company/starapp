@@ -32,7 +32,7 @@ class MockSavedRepository implements SavedRepository {
 const _img = 'assets/images/profile';
 const _sahel = '$_img/saved_thumb_sahel_soul.jpg';
 const _freestyle = '$_img/saved_thumb_street_freestyle.jpg';
-const _studio = 'assets/images/challenges/arena_studio.jpg';
+const _studio = 'assets/images/shared/arena_studio.jpg';
 
 const _amina = {
   'id': 'amina',

@@ -295,7 +295,7 @@ class _LinkRow extends StatelessWidget {
                     ),
                   ),
                   SvgPicture.asset(
-                    '$_dir/share_chevron.svg',
+                    'assets/vectors/shared/share_chevron.svg',
                     width: 18,
                     height: 18,
                   ),

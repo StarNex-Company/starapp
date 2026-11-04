@@ -44,10 +44,9 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Local environment (keep the example)
+# Local environment
 .env
 .env.*
-!.env.example
 
 # Local AI-tool config
 AGENTS.md

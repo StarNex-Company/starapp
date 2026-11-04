@@ -6,8 +6,8 @@ const myProfileLeading = 1.21;
 abstract final class MyProfileIcons {
   static const _dir = 'assets/vectors/profile';
 
-  static const more = '$_dir/me_ic_more.svg';
-  static const starStruck = '$_dir/me_ic_star_struck.svg';
+  static const more = 'assets/vectors/shared/ic_more.svg';
+  static const starStruck = 'assets/vectors/shared/ic_star_struck.svg';
   static const founderBadge = '$_dir/me_badge_cofounder.svg';
   static const verifiedBadge = '$_dir/me_badge_verified.svg';
   static const edit = '$_dir/me_ic_edit.svg';
@@ -15,22 +15,22 @@ abstract final class MyProfileIcons {
   static const zap = '$_dir/me_ic_zap.svg';
   static const tierWatermark = '$_dir/me_tier_watermark.svg';
   static const music = '$_dir/me_ic_music.svg';
-  static const trophy = '$_dir/me_ic_trophy.svg';
+  static const trophy = 'assets/vectors/shared/ic_trophy_tile.svg';
 
   static const menuShortcuts = '$_dir/me_menu_ic_shortcuts.svg';
   static const menuSettings = '$_dir/me_menu_ic_settings.svg';
-  static const menuShare = '$_dir/me_menu_ic_share.svg';
+  static const menuShare = 'assets/vectors/shared/ic_share.svg';
   static const menuLogOut = '$_dir/me_menu_ic_logout.svg';
-  static const menuChevronDanger = '$_dir/me_menu_ic_chevron_danger.svg';
+  static const menuChevronDanger = 'assets/vectors/shared/ic_chevron_danger.svg';
 
   // Identical files already in the app.
-  static const logo = 'assets/vectors/home/header_logo.svg';
+  static const logo = 'assets/vectors/shared/logo.svg';
   static const play = 'assets/vectors/challenges/detail_ic_play_small.svg';
   static const liveDot = 'assets/vectors/create/camera_rec_dot.svg';
   static const entryTrophy = 'assets/vectors/create/uploading_ic_trophy.svg';
   static const chevron = 'assets/vectors/shared/share_chevron.svg';
   static const chevronMuted =
-      'assets/vectors/create/sheet_ic_chevron_muted.svg';
+      'assets/vectors/shared/ic_chevron_muted.svg';
 }
 
 abstract final class MyProfileImages {

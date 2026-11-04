@@ -19,31 +19,31 @@ abstract final class WalletIcons {
   static const arrowUpRightNavy = '$_dir/ic_arrow_up_right_navy.svg';
   static const arrowDownLeftGreen = '$_dir/ic_arrow_down_left_green.svg';
   static const fileWhite = '$_dir/ic_file_white.svg';
-  static const fileNavy = '$_dir/ic_file_navy.svg';
+  static const fileNavy = 'assets/vectors/shared/ic_file.svg';
   static const trophyGold = '$_dir/ic_trophy_gold.svg';
   static const heartPink = '$_dir/ic_heart_pink.svg';
   static const heartNavy = '$_dir/ic_heart_navy.svg';
   static const briefcaseSmall = '$_dir/ic_briefcase_small.svg';
   static const bank = '$_dir/ic_bank.svg';
   static const backspace = '$_dir/ic_backspace.svg';
-  static const wallet = '$_dir/ic_wallet.svg';
+  static const wallet = 'assets/vectors/shared/ic_wallet.svg';
   static const check = '$_dir/ic_check.svg';
   static const plus = '$_dir/ic_plus.svg';
   static const globe = '$_dir/ic_globe.svg';
   static const sentArrow = '$_dir/sent_arrow.svg';
 
   // Identical art already bundled elsewhere in the app.
-  static const trophyNavy = 'assets/vectors/challenges/rules_ic_trophy.svg';
+  static const trophyNavy = 'assets/vectors/shared/ic_trophy.svg';
   static const briefcaseNavy =
       'assets/vectors/settings/privacy_ic_briefcase.svg';
   static const calendar = 'assets/vectors/challenges/rules_ic_calendar.svg';
-  static const clock = 'assets/vectors/moderation/appeal_ic_clock.svg';
+  static const clock = 'assets/vectors/shared/ic_clock.svg';
   static const zap = 'assets/vectors/challenges/upcoming_ic_zap.svg';
   static const fileSmall =
       'assets/vectors/moderation/appeal_submitted_file.svg';
   static const chevron = 'assets/vectors/shared/share_chevron.svg';
   static const chevronMuted =
-      'assets/vectors/create/sheet_ic_chevron_muted.svg';
+      'assets/vectors/shared/ic_chevron_muted.svg';
 }
 
 /// Wallet colours that have no [AppColors] token.

@@ -26,7 +26,7 @@ class MockMyPostRepository implements MyPostRepository {
   Future<void> deletePost(String postId) async {}
 }
 
-const _studio = 'assets/images/create/preview_cover_studio.jpg';
+const _studio = 'assets/images/shared/arena_studio.jpg';
 
 /// The posts behind the profile grid, Top posts and Star Insights.
 List<Json> _posts(DateTime now) {
@@ -81,7 +81,7 @@ List<Json> _posts(DateTime now) {
     post(
       'studio-session-freestyle',
       'Studio session freestyle',
-      poster: 'assets/images/home/avatar_you.jpg',
+      poster: 'assets/images/shared/avatar_you.jpg',
       caption: 'Freestyling between takes, no edits 🎙️ ',
       hashtag: '#OwnTheSpotlight',
       stars: 742,
@@ -107,7 +107,7 @@ List<Json> _posts(DateTime now) {
     post(
       'sunday-choir-rehearsal',
       'Sunday choir rehearsal',
-      poster: 'assets/images/home/post_adeboye_portrait.jpg',
+      poster: 'assets/images/shared/post_adeboye_portrait.jpg',
       caption: 'Sunday choir rehearsal, harmonies on point 🙌 ',
       hashtag: '#GospelVibes',
       stars: 518,
@@ -133,7 +133,7 @@ List<Json> _posts(DateTime now) {
     post(
       'behind-the-beat',
       'Behind the beat',
-      poster: 'assets/images/stories/gallery_concept_city.jpg',
+      poster: 'assets/images/shared/hub_banner_concept_art.jpg',
       caption: 'How this beat came together, layer by layer 🎛️ ',
       hashtag: '#BehindTheBeat',
       stars: 214,

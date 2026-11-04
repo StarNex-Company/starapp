@@ -86,18 +86,18 @@ const _posts = {
   'items': [
     {
       'id': 'studio-session-freestyle',
-      'thumbnailUrl': '$_images/challenges/arena_studio.jpg',
+      'thumbnailUrl': 'assets/images/shared/arena_studio.jpg',
       'views': 4200,
       'isChallengeEntry': true,
     },
     {
       'id': 'late-night-vocal-run',
-      'thumbnailUrl': '$_images/home/avatar_you.jpg',
+      'thumbnailUrl': 'assets/images/shared/avatar_you.jpg',
       'views': 2800,
     },
     {
       'id': 'sunday-choir-rehearsal',
-      'thumbnailUrl': '$_images/home/post_adeboye_portrait.jpg',
+      'thumbnailUrl': 'assets/images/shared/post_adeboye_portrait.jpg',
       'views': 1100,
     },
     {
@@ -107,12 +107,12 @@ const _posts = {
     },
     {
       'id': 'afro-beats-cover-burna-boy',
-      'thumbnailUrl': '$_images/home/creator_sarah_beats.jpg',
+      'thumbnailUrl': 'assets/images/shared/creator_amina.jpg',
       'views': 3600,
     },
     {
       'id': 'gbedu-dance-cover',
-      'thumbnailUrl': '$_images/challenges/hub_banner_concept_art.jpg',
+      'thumbnailUrl': 'assets/images/shared/hub_banner_concept_art.jpg',
       'views': 610,
     },
   ],

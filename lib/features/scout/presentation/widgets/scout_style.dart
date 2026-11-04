@@ -18,7 +18,7 @@ abstract final class ScoutIcons {
   static const _dir = 'assets/vectors/scout';
 
   // Identical files other screens already ship.
-  static const chevron = 'assets/vectors/challenges/rules_ic_chevron.svg';
+  static const chevron = 'assets/vectors/shared/share_chevron.svg';
   static const search = 'assets/vectors/profile/connections_ic_search.svg';
   static const sliders = 'assets/vectors/challenges/board_ic_sliders.svg';
   static const shield = 'assets/vectors/create/ic_shield.svg';
@@ -57,7 +57,7 @@ abstract final class ScoutIcons {
   static const verified18 = '$_dir/scout_ic_verified_18.svg';
   static const wallet13 = '$_dir/scout_ic_wallet_13.svg';
   static const wallet14 = '$_dir/scout_ic_wallet_14.svg';
-  static const wallet20 = '$_dir/scout_ic_wallet_20.svg';
+  static const wallet20 = 'assets/vectors/shared/ic_wallet.svg';
 
   /// The 20px tile icon for a category.
   static String category(TalentCategory? category) => switch (category) {
@@ -70,8 +70,6 @@ abstract final class ScoutIcons {
 
 /// Scout colours that aren't app-wide tokens.
 abstract final class ScoutColors {
-  /// surface/muted/eef0f5: the segmented control track.
-  static const segmentTrack = Color(0xFFEEF0F5);
 
   /// surface/muted/e2e5ec: count pill.
   static const countPill = Color(0xFFE2E5EC);

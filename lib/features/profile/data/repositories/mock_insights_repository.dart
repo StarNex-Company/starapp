@@ -25,12 +25,12 @@ class MockInsightsRepository implements InsightsRepository {
       TalentPassport.fromJson(_passport(DateTime.now()));
 }
 
-const _thumbCurly = 'assets/images/home/trending_thumb.jpg';
-const _thumbStudio = 'assets/images/challenges/arena_studio.jpg';
-const _thumbGlasses = 'assets/images/home/avatar_you.jpg';
-const _thumbChoir = 'assets/images/home/post_adeboye_portrait.jpg';
+const _thumbCurly = 'assets/images/shared/entry_video_frame.jpg';
+const _thumbStudio = 'assets/images/shared/arena_studio.jpg';
+const _thumbGlasses = 'assets/images/shared/avatar_you.jpg';
+const _thumbChoir = 'assets/images/shared/post_adeboye_portrait.jpg';
 const _thumbDancer = 'assets/images/stories/story_freestyle.jpg';
-const _thumbCity = 'assets/images/challenges/hub_banner_concept_art.jpg';
+const _thumbCity = 'assets/images/shared/hub_banner_concept_art.jpg';
 
 String _iso(DateTime time) => time.toUtc().toIso8601String();
 

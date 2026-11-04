@@ -25,7 +25,7 @@ abstract final class PassportIcons {
   static const playSmall = 'assets/vectors/challenges/detail_ic_play_small.svg';
   static const starGold = 'assets/vectors/challenges/ic_star.svg';
   static const liveDot = 'assets/vectors/create/camera_rec_dot.svg';
-  static const trophy = '$_dir/me_ic_trophy.svg';
+  static const trophy = 'assets/vectors/shared/ic_trophy_tile.svg';
   static const music = '$_dir/me_ic_music.svg';
 }
 

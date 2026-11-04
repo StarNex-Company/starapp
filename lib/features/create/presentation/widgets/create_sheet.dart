@@ -412,7 +412,7 @@ class _DraftsRow extends StatelessWidget {
               ),
             const Spacer(),
             SvgPicture.asset(
-              '$_dir/sheet_ic_chevron_muted.svg',
+              'assets/vectors/shared/ic_chevron_muted.svg',
               width: 18,
               height: 18,
             ),

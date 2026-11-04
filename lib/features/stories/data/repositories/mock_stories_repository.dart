@@ -45,6 +45,9 @@ class MockStoriesRepository implements StoriesRepository {
 
 const _img = 'assets/images/stories';
 
+/// A fixture image: a bare name in [_img], or a full asset path.
+String _asset(String name) => name.startsWith('assets/') ? name : '$_img/$name';
+
 /// `GET /stories?row=home` and `?row=discover`. Photos, avatars and copy
 /// come from the STAR-APP design.
 Map<StoryLayout, List<Json>> _rows(DateTime now) {
@@ -59,7 +62,7 @@ Map<StoryLayout, List<Json>> _rows(DateTime now) {
     final createdAt = now.subtract(Duration(hours: hoursAgo));
     return {
       'id': id,
-      'mediaUrl': photo == null ? null : '$_img/$photo',
+      'mediaUrl': photo == null ? null : _asset(photo),
       'text': text,
       'caption': caption,
       'fit': fit,
@@ -116,7 +119,7 @@ Map<StoryLayout, List<Json>> _rows(DateTime now) {
         story(
           'adeboye-1',
           hoursAgo: 2,
-          photo: 'story_adeboye_1.jpg',
+          photo: 'assets/images/shared/post_adeboye_portrait.jpg',
           caption: 'Sunday service highlights 🙏',
         ),
         story(

@@ -25,8 +25,6 @@ abstract final class InsightsColors {
   static const tierBlue = Color(0xFF60A5FA);
   static const tierPill = Color(0x2460A5FA);
 
-  /// surface/muted/eef0f5 — segmented control track.
-  static const segmentTrack = Color(0xFFEEF0F5);
 
   /// rgba(11, 16, 32, 0.08) — segmented thumb and bottom bar shadows.
   static const softShadow = Color(0x140B1020);

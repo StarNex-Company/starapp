@@ -35,13 +35,13 @@ const discoverHairShadow = [
 abstract final class DiscoverIcons {
   static const _dir = 'assets/vectors/discover';
 
-  static const logo = '$_dir/logo.svg';
-  static const filter = '$_dir/ic_filter.svg';
-  static const search = '$_dir/ic_search.svg';
-  static const follow = '$_dir/ic_follow.svg';
-  static const dismiss = '$_dir/ic_dismiss.svg';
-  static const avatarRing = '$_dir/avatar_ring.svg';
-  static const avatarRingGap = '$_dir/avatar_ring_gap.svg';
+  static const logo = 'assets/vectors/shared/logo.svg';
+  static const filter = 'assets/vectors/shared/ic_filters.svg';
+  static const search = 'assets/vectors/shared/ic_search.svg';
+  static const follow = 'assets/vectors/shared/ic_follow.svg';
+  static const dismiss = 'assets/vectors/shared/ic_dismiss.svg';
+  static const avatarRing = 'assets/vectors/shared/avatar_ring.svg';
+  static const avatarRingGap = 'assets/vectors/shared/avatar_ring_gap.svg';
 
   static const storyAdd = '$_dir/story_badge_add.svg';
   static const storyStar = '$_dir/story_badge_star.svg';

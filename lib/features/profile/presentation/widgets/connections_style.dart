@@ -10,12 +10,12 @@ abstract final class ConnectionsIcons {
   static const search = '$_dir/connections_ic_search.svg';
 
   /// White 2px gap between the tier ring and the photo.
-  static const ringGap = 'assets/vectors/search/search_avatar_ring_gap.svg';
+  static const ringGap = 'assets/vectors/shared/avatar_ring_gap.svg';
 
   /// The ring round a person's photo, coloured by tier; grey without one.
   static String ring(CreatorTier? tier) => switch (tier) {
     null || CreatorTier.shootingStar => '$_dir/connections_ring_gray.svg',
-    CreatorTier.risingNova => 'assets/vectors/search/search_avatar_ring.svg',
+    CreatorTier.risingNova => 'assets/vectors/shared/avatar_ring.svg',
     CreatorTier.stellar => '$_dir/connections_ring_violet.svg',
     CreatorTier.superNova => '$_dir/connections_ring_amber.svg',
     CreatorTier.universeIcon => '$_dir/connections_ring_pink.svg',
@@ -23,8 +23,6 @@ abstract final class ConnectionsIcons {
 }
 
 abstract final class ConnectionsColors {
-  /// surface/muted/eef0f5 — segmented control track.
-  static const segmentTrack = Color(0xFFEEF0F5);
 
   /// surface/muted/e2e5ec — count pill on the unselected segment.
   static const pillMuted = Color(0xFFE2E5EC);

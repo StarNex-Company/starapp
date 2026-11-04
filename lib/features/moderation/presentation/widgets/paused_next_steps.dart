@@ -4,7 +4,7 @@ import 'package:starapp/app/theme/app_theme.dart';
 import 'package:starapp/shared/widgets/star_form_fields.dart';
 
 const _fileIcon = 'assets/vectors/moderation/paused_ic_file.svg';
-const _chevronIcon = 'assets/vectors/moderation/paused_ic_chevron_right.svg';
+const _chevronIcon = 'assets/vectors/shared/ic_chevron_muted.svg';
 
 /// "WHAT YOU CAN DO" heading over a numbered list of options.
 class PausedNextSteps extends StatelessWidget {

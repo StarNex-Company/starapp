@@ -11,7 +11,9 @@ starapp/
 ├── assets/
 │   ├── fonts/           Inter (Light–ExtraBold)
 │   ├── images/<feature>/  bitmaps; mock content photos live here too
-│   └── vectors/<feature>/ SVG icons and illustrations (shared/ for common ones)
+│   ├── images/shared/     photos used by more than one feature
+│   └── vectors/<feature>/ SVG icons and illustrations; vectors/shared/ for
+│                          icons used by more than one feature
 ├── docs/                ARCHITECTURE.md, ARCHITECTURE_STRUCTURE.md
 ├── android/ ios/ web/   platform projects
 ├── pubspec.yaml         dependencies and asset folders
@@ -102,7 +104,6 @@ core/
 | `star_screen_header.dart`, `star_icon_button.dart`, `star_buttons.dart`, `star_bottom_bar.dart` | headers, icon buttons, primary/outlined buttons, sticky bottom bars |
 | `star_form_fields.dart`, `star_radio_card.dart`, `star_media_summary_card.dart`, `star_success_hero.dart` | form and content building blocks |
 | `auth_buttons.dart`, `shared_icons.dart` | auth buttons, shared icon paths |
-| `app_button.dart` | `AppButton`, currently unused |
 
 ## Anatomy of a feature
 
@@ -226,7 +227,7 @@ test/
 4. **Providers** in `data/provider`, with `selectRepository(ref, mock: …, api: …)`.
 5. **Pages and widgets** built from `shared/widgets`: `StarAsyncView`, `StarTabBar`/`StarChoiceChips`, `StarImage`, `showStarToast`, and so on.
 6. **Routes:** add the paths to `AppRoutes` and register them in `app/router/app_router.dart`, either inside a tab branch or as a full-screen route.
-7. **Assets** go in `assets/images/<name>/` and `assets/vectors/<name>/`. Register both folders in `pubspec.yaml`.
+7. **Assets** go in `assets/images/<name>/` and `assets/vectors/<name>/`. Register both folders in `pubspec.yaml`. An asset used by more than one feature goes in `images/shared/` or `vectors/shared/`, never copied.
 8. **Tests:** add `test/features/<name>/` with model tests, and add the routes to `test/app/shell_navigation_test.dart`.
 
 ## Naming

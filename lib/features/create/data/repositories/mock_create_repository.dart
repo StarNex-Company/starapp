@@ -109,8 +109,8 @@ class UploadSimulation {
   }
 }
 
-const _videoFrame = 'assets/images/create/entry_video_frame.jpg';
-const _studioFrame = 'assets/images/create/preview_cover_studio.jpg';
+const _videoFrame = 'assets/images/shared/entry_video_frame.jpg';
+const _studioFrame = 'assets/images/shared/arena_studio.jpg';
 
 /// The featured arena's time left, as the design shows it ("4d 18h").
 const _featuredLeft = Duration(days: 4, hours: 18, minutes: 22, seconds: 9);

@@ -18,7 +18,7 @@ const _scrimClear = Color(0x0007090D);
 
 // Stand-ins for the live preview and the latest gallery item until camera
 // and gallery access exist.
-const _viewfinderPlaceholder = 'assets/images/create/entry_video_frame.jpg';
+const _viewfinderPlaceholder = 'assets/images/shared/entry_video_frame.jpg';
 const _galleryPlaceholder = 'assets/images/create/camera_gallery_thumb.jpg';
 
 const _tools = [

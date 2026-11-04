@@ -3,7 +3,7 @@ abstract final class DetailIcons {
 
   static const back = '$_dir/detail_ic_back.svg';
   static const bookmark = '$_dir/detail_ic_bookmark.svg';
-  static const bookmarkFilled = '$_dir/detail_ic_bookmark_filled.svg';
+  static const bookmarkFilled = 'assets/vectors/shared/ic_bookmark_filled.svg';
   static const share = '$_dir/detail_ic_share.svg';
   static const crown = '$_dir/detail_ic_crown.svg';
   static const clock = '$_dir/detail_ic_clock.svg';

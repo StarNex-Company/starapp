@@ -4,7 +4,7 @@ abstract final class SettingsIcons {
   static const _dir = 'assets/vectors/settings';
 
   // Settings
-  static const more = '$_dir/settings_ic_more.svg';
+  static const more = 'assets/vectors/shared/ic_more.svg';
   static const creatorBadge = '$_dir/settings_ic_creator_badge.svg';
   static const verified = '$_dir/settings_ic_verified.svg';
 
@@ -39,7 +39,7 @@ abstract final class SettingsIcons {
 
   /// 18px brand chevron of the tile rows.
   static const tileChevron = 'assets/vectors/shared/share_chevron.svg';
-  static const tileChevronDanger = '$_dir/settings_ic_chevron_danger.svg';
+  static const tileChevronDanger = 'assets/vectors/shared/ic_chevron_danger.svg';
 
   // Edit Profile
   static const cameraSmall = '$_dir/edit_profile_ic_camera_small.svg';

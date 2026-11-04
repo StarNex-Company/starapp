@@ -36,6 +36,9 @@ class MockHomeRepository implements HomeRepository {
 
 const _img = 'assets/images/home';
 
+/// A fixture image: a bare name in [_img], or a full asset path.
+String _asset(String name) => name.startsWith('assets/') ? name : '$_img/$name';
+
 Json _person(
   String id,
   String name,
@@ -47,7 +50,7 @@ Json _person(
   'id': id,
   'name': name,
   'handle': handle,
-  'avatarUrl': '$_img/$avatar',
+  'avatarUrl': _asset(avatar),
   'tier': tier,
   'isVerified': verified,
 };
@@ -79,9 +82,9 @@ final _ayeni = _person(
 
 /// Who appears in "Starred by" and "Followed by".
 final _friends = [
-  _person('kola-bankole', 'Kola Bankole', 'kola_bankole', 'avatar_you.jpg'),
+  _person('kola-bankole', 'Kola Bankole', 'kola_bankole', 'assets/images/shared/avatar_you.jpg'),
   _person('maya-lin', 'Maya Lin', 'mayalin', 'avatar_liker.jpg'),
-  _person('david-cole', 'David Cole', 'davidcole', 'avatar_you.jpg'),
+  _person('david-cole', 'David Cole', 'davidcole', 'assets/images/shared/avatar_you.jpg'),
 ];
 
 String _ago(DateTime now, Duration age) =>
@@ -92,7 +95,7 @@ Json _sections(DateTime now) {
   Json story(String key, Json creator, String cover, int followers) => {
     'storyKey': key,
     'creator': creator,
-    'coverUrl': '$_img/$cover',
+    'coverUrl': _asset(cover),
     'followers': followers,
   };
   Json talent(String id, Json author, {int minutesAgo = 120}) => {
@@ -100,7 +103,7 @@ Json _sections(DateTime now) {
     'author': {...author, 'avatarUrl': _ayeni['avatarUrl']},
     'createdAt': _ago(now, Duration(minutes: minutesAgo)),
     'tag': '🎬 Acting Audition',
-    'coverUrl': '$_img/trending_thumb.jpg',
+    'coverUrl': 'assets/images/shared/entry_video_frame.jpg',
   };
   Json suggestion(String id, String name, String handle, String avatar) => {
     'creator': _person(id, name, handle, avatar),
@@ -179,20 +182,20 @@ Json _sections(DateTime now) {
         'chidi-visuals',
         'Chidi Visuals',
         'chidi_lens',
-        'creator_chidi.jpg',
+        'assets/images/shared/creator_chidi.jpg',
       ),
-      suggestion('nia', 'Nia Adebayo', 'nia_dance', 'creator_nia.jpg'),
+      suggestion('nia', 'Nia Adebayo', 'nia_dance', 'assets/images/shared/creator_carlos.jpg'),
       suggestion(
         'sarah-beats',
         'Sarah Beats',
         'sarahbeats',
-        'creator_sarah_beats.jpg',
+        'assets/images/shared/creator_amina.jpg',
       ),
       suggestion(
         'marcus',
         'Marcus Sterling',
         'marcusvocal',
-        'creator_marcus.jpg',
+        'assets/images/shared/creator_lucas.jpg',
       ),
     ],
   };
@@ -202,7 +205,7 @@ Json _sections(DateTime now) {
 /// "+N" media pile), then the rest.
 Json _feed(DateTime now) {
   const flyer = '$_img/post_worship_flyer.jpg';
-  const portrait = '$_img/post_adeboye_portrait.jpg';
+  const portrait = 'assets/images/shared/post_adeboye_portrait.jpg';
   final adeboyePhoto = _adeboye['avatarUrl'];
   final yesterday = DateTime(now.year, now.month, now.day - 1, 13, 45);
   Json counts(int stars, int comments, int reposts) => {

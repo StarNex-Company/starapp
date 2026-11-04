@@ -79,13 +79,13 @@ const _talents = [
 /// `GET /profile-media/presets`.
 const _media = {
   'photoUrls': [
-    'assets/images/home/avatar_you.jpg',
-    'assets/images/stories/gallery_curly.jpg',
-    'assets/images/stories/gallery_braids.jpg',
+    'assets/images/shared/avatar_you.jpg',
+    'assets/images/shared/entry_video_frame.jpg',
+    'assets/images/shared/creator_amina.jpg',
   ],
   'coverUrls': [
-    'assets/images/stories/gallery_concept_city.jpg',
-    'assets/images/challenges/arena_studio.jpg',
+    'assets/images/shared/hub_banner_concept_art.jpg',
+    'assets/images/shared/arena_studio.jpg',
     'assets/images/stories/gallery_photo_wall.jpg',
   ],
   'defaultPhotoUrl': 'assets/images/auth_avatar_1.png',

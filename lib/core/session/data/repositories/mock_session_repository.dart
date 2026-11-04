@@ -36,7 +36,7 @@ const _me = {
   'fullName': 'Emmanuel Ayanleye',
   'handle': 'emmanuel',
   'tier': 'risingNova',
-  'avatarUrl': 'assets/images/home/avatar_you.jpg',
+  'avatarUrl': 'assets/images/shared/avatar_you.jpg',
   'coverUrl': null,
   'location': 'Lagos, Nigeria',
   'bio':

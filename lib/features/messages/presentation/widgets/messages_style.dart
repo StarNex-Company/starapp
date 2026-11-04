@@ -13,31 +13,29 @@ abstract final class MessagesIcons {
   static const briefcaseGold = '$_dir/msg_ic_briefcase_gold.svg';
   static const briefcasePill = '$_dir/msg_ic_briefcase_pill.svg';
   static const fileRed = '$_dir/msg_ic_file_red.svg';
-  static const file = '$_dir/msg_ic_file.svg';
+  static const file = 'assets/vectors/shared/ic_file.svg';
   static const idCard = '$_dir/msg_ic_idcard.svg';
   static const flag = '$_dir/msg_ic_flag.svg';
   static const plus = '$_dir/msg_ic_plus.svg';
 
   // Identical files already bundled by other screens.
   static const search = 'assets/vectors/profile/connections_ic_search.svg';
-  static const more = 'assets/vectors/settings/settings_ic_more.svg';
+  static const more = 'assets/vectors/shared/ic_more.svg';
   static const send = 'assets/vectors/shared/ic_send.svg';
   static const image = 'assets/vectors/challenges/upcoming_ic_image.svg';
   static const briefcase = 'assets/vectors/settings/privacy_ic_briefcase.svg';
   static const slash = 'assets/vectors/settings/privacy_ic_slash.svg';
-  static const chevron = 'assets/vectors/search/search_ic_chevron.svg';
+  static const chevron = 'assets/vectors/shared/share_chevron.svg';
   static const chevronDanger =
-      'assets/vectors/profile/creator_menu_ic_chevron_danger.svg';
-  static const ring = 'assets/vectors/search/search_avatar_ring.svg';
-  static const ringGap = 'assets/vectors/search/search_avatar_ring_gap.svg';
+      'assets/vectors/shared/ic_chevron_danger.svg';
+  static const ring = 'assets/vectors/shared/avatar_ring.svg';
+  static const ringGap = 'assets/vectors/shared/avatar_ring_gap.svg';
 }
 
 abstract final class MessagesColors {
   /// surface/muted/eef0f5: segmented track, day pill.
   static const track = Color(0xFFEEF0F5);
 
-  /// surface/muted/e2e5ec: count pill on an unselected segment.
-  static const pillMuted = Color(0xFFE2E5EC);
 
   /// surface/muted/f1f3f8: incoming bubble.
   static const bubbleIn = Color(0xFFF1F3F8);

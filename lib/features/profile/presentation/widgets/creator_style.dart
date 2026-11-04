@@ -12,7 +12,7 @@ abstract final class CreatorIcons {
 
   static const share = '$_dir/creator_ic_share.svg';
   static const storyRing = '$_dir/creator_story_ring.svg';
-  static const starStruck = '$_dir/creator_ic_star_struck.svg';
+  static const starStruck = 'assets/vectors/shared/ic_star_struck.svg';
   static const verified = '$_dir/creator_ic_verified.svg';
   static const coFounder = '$_dir/creator_ic_cofounder.svg';
   static const userPlus = '$_dir/creator_ic_user_plus.svg';
@@ -23,7 +23,7 @@ abstract final class CreatorIcons {
   static const chevronGold = '$_dir/creator_ic_chevron_gold.svg';
 
   /// Gold 20px trophy in the Challenges tab's icon tiles.
-  static const trophyTile = '$_dir/creator_ic_trophy_tile.svg';
+  static const trophyTile = 'assets/vectors/shared/ic_trophy_tile.svg';
 
   /// Identical files already in assets.
   static const play = 'assets/vectors/challenges/detail_ic_play_small.svg';

@@ -168,7 +168,7 @@ class AuthScaffold extends StatelessWidget {
 }
 
 /// Logo (left) + language chip (right) row: 24px side padding, 13px top
-/// padding, 32 high. Used by [AuthScaffold] and `AuthAppBar`.
+/// padding, 32 high. Used by [AuthScaffold].
 class AuthHeaderBar extends StatelessWidget {
   const AuthHeaderBar({
     super.key,

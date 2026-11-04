@@ -23,7 +23,7 @@ TextStyle hubText(
 abstract final class HubIcons {
   static const _dir = 'assets/vectors/challenges';
 
-  static const filters = '$_dir/hub_ic_filters.svg';
+  static const filters = 'assets/vectors/shared/ic_filters.svg';
   static const history = '$_dir/hub_ic_history.svg';
   static const myEntries = '$_dir/hub_ic_my_entries.svg';
   static const hallOfFame = '$_dir/hub_ic_hall_of_fame.svg';

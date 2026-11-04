@@ -7,13 +7,13 @@ const searchLeading = 1.21;
 abstract final class SearchIcons {
   static const _dir = 'assets/vectors/search';
 
-  static const search = '$_dir/search_ic_search.svg';
-  static const clock = '$_dir/search_ic_clock.svg';
+  static const search = 'assets/vectors/shared/ic_search.svg';
+  static const clock = 'assets/vectors/shared/ic_clock.svg';
   static const remove = '$_dir/search_ic_remove.svg';
-  static const trophy = '$_dir/search_ic_trophy.svg';
-  static const chevron = '$_dir/search_ic_chevron.svg';
-  static const ring = '$_dir/search_avatar_ring.svg';
-  static const ringGap = '$_dir/search_avatar_ring_gap.svg';
+  static const trophy = 'assets/vectors/shared/ic_trophy.svg';
+  static const chevron = 'assets/vectors/shared/share_chevron.svg';
+  static const ring = 'assets/vectors/shared/avatar_ring.svg';
+  static const ringGap = 'assets/vectors/shared/avatar_ring_gap.svg';
 }
 
 abstract final class SearchColors {

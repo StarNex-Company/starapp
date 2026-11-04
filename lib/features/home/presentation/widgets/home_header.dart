@@ -27,7 +27,7 @@ class HomeHeader extends StatelessWidget {
           label: 'StarApp',
           image: true,
           child: SvgPicture.asset(
-            '$_dir/header_logo.svg',
+            'assets/vectors/shared/logo.svg',
             width: 28,
             height: 24,
           ),

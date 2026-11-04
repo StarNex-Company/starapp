@@ -24,11 +24,11 @@ abstract final class MyPostIcons {
   static const _profile = 'assets/vectors/profile';
   static const menuInsights = '$_profile/post_ic_trend_up.svg';
   static const menuEdit = '$_profile/post_ic_edit.svg';
-  static const menuShare = '$_profile/post_ic_share.svg';
+  static const menuShare = 'assets/vectors/shared/ic_share.svg';
   static const menuTrash = 'assets/vectors/settings/settings_ic_trash.svg';
   static const menuChevron = 'assets/vectors/shared/share_chevron.svg';
   static const menuChevronDanger =
-      'assets/vectors/settings/settings_ic_chevron_danger.svg';
+      'assets/vectors/shared/ic_chevron_danger.svg';
 }
 
 /// Rail and back-button circles: 7d7d80 @ 52%.

@@ -171,7 +171,7 @@ Json _featured(DateTime now) => {
   'category': 'Music & Production',
   'arena': 'music',
   'status': 'live',
-  'coverUrl': '$_img/arena_studio.jpg',
+  'coverUrl': 'assets/images/shared/arena_studio.jpg',
   'endsAt': _at(now, _featuredLeft),
   'prize': {
     'amount': _usd(10000),
@@ -283,7 +283,7 @@ Json _hub(DateTime now) => {
       },
       'preview': {
         'kind': 'banner',
-        'imageUrl': '$_img/hub_banner_concept_art.jpg',
+        'imageUrl': 'assets/images/shared/hub_banner_concept_art.jpg',
         'theme': 'Solarpunk Horizons',
       },
     },
@@ -312,7 +312,7 @@ Json _detail(DateTime now) => {
   'inspiration': [
     {
       'id': 'inspiration-1',
-      'thumbnailUrl': '$_img/arena_studio.jpg',
+      'thumbnailUrl': 'assets/images/shared/arena_studio.jpg',
       'viewCount': 1200000,
     },
     {
@@ -327,7 +327,7 @@ Json _detail(DateTime now) => {
     },
     {
       'id': 'inspiration-4',
-      'thumbnailUrl': '$_img/arena_studio.jpg',
+      'thumbnailUrl': 'assets/images/shared/arena_studio.jpg',
       'viewCount': 230000,
     },
   ],

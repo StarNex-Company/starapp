@@ -318,7 +318,7 @@ Json _money(int amountMinor, String currency) => {
 /// Kora has no rating or testimonials, so those sections hide.
 Map<String, Json> _companyExtras(DateTime now) => {
   'afrowave-records': {
-    'coverUrl': 'assets/images/challenges/arena_studio.jpg',
+    'coverUrl': 'assets/images/shared/arena_studio.jpg',
     'followersCount': 24600,
     'foundedYear': 2014,
     'verificationNote': _verificationNote,

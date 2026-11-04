@@ -161,11 +161,11 @@ Json _generic(String id) => {
 };
 
 // Video stills shared with other screens.
-const _trending = 'assets/images/home/trending_thumb.jpg';
-const _studio = 'assets/images/challenges/arena_studio.jpg';
+const _trending = 'assets/images/shared/entry_video_frame.jpg';
+const _studio = 'assets/images/shared/arena_studio.jpg';
 const _dancer = 'assets/images/videos/video_amina_k.jpg';
 const _freestyle = 'assets/images/stories/story_freestyle.jpg';
-const _conceptCity = 'assets/images/stories/gallery_concept_city.jpg';
+const _conceptCity = 'assets/images/shared/hub_banner_concept_art.jpg';
 const _sarahReel = 'assets/images/stories/story_sarah_1.jpg';
 const _gabrielReel = 'assets/images/stories/story_gabriel_1.jpg';
 const _funmilayoReel = 'assets/images/stories/story_funmilayo_1.jpg';

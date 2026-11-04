@@ -10,15 +10,15 @@ abstract final class ChallengeListIcons {
   static const _dir = 'assets/vectors/challenges';
 
   static const music = '$_dir/rules_ic_music.svg';
-  static const clock = 'assets/vectors/moderation/appeal_ic_clock.svg';
+  static const clock = 'assets/vectors/shared/ic_clock.svg';
   static const calendar = '$_dir/rules_ic_calendar.svg';
   static const shieldCheck = '$_dir/rules_ic_shield_check.svg';
-  static const trophy = '$_dir/rules_ic_trophy.svg';
+  static const trophy = 'assets/vectors/shared/ic_trophy.svg';
   static const zap = '$_dir/upcoming_ic_zap.svg';
   static const smile = '$_dir/upcoming_ic_smile.svg';
   static const image = '$_dir/upcoming_ic_image.svg';
   static const star = '$_dir/entries_ic_star.svg';
-  static const chevron = '$_dir/rules_ic_chevron.svg';
+  static const chevron = 'assets/vectors/shared/share_chevron.svg';
 
   static String of(ChallengeIcon icon) => switch (icon) {
     ChallengeIcon.music => music,

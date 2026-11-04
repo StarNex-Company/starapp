@@ -16,9 +16,7 @@ dependencies:
   flutter_riverpod: ^3.3.2
   flutter_secure_storage: ^9.2.4
   go_router: ^15.1.2
-  riverpod_annotation: ^4.0.3
   shared_preferences: ^2.5.5
-  smooth_page_indicator: ^2.0.1
   intl: ^0.20.2
   flutter_svg: ^2.3.2
   cached_network_image: ^4.0.3
@@ -29,14 +27,13 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
-  build_runner: ^2.15.1
-  riverpod_generator: ^4.0.4
 
 flutter:
   generate: true
   uses-material-design: true
   assets:
     - assets/images/
+    - assets/images/shared/
     - assets/images/home/
     - assets/vectors/
     - assets/vectors/home/
@@ -61,13 +58,11 @@ flutter:
     - assets/vectors/profile/
     - assets/images/settings/
     - assets/vectors/settings/
-    - assets/images/verification/
     - assets/vectors/verification/
     - assets/images/messages/
     - assets/vectors/messages/
     - assets/images/scout/
     - assets/vectors/scout/
-    - assets/images/wallet/
     - assets/vectors/wallet/
 
   fonts:
